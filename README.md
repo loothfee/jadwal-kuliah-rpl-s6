@@ -2,7 +2,7 @@
 
 ## Link Jadwal Kuliah
 ```
-[here](https://jadwal-kuliah-rpl-s6.web.app/)
+[a link](https://jadwal-kuliah-rpl-s6.web.app/)
 ```
 <!-- 
 ## Project setup Backend & Frontend
