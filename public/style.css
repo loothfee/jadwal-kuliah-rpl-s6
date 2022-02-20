@@ -1,0 +1,147 @@
+body {
+  font-family: "lato", sans-serif;
+  background-color: #d6d6d6;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ket {
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+  font-weight: bold;
+}
+h2 small {
+  font-size: 0.5em;
+}
+
+.responsive-table li {
+  border-radius: 3px;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.responsive-table .table-header {
+  background-color: #727cf5;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.responsive-table .table-row {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+.akhir {
+  border-radius: 0 0 10px 10px !important;
+}
+.responsive-table .col-1 {
+  flex-basis: 10%;
+}
+.responsive-table .col-2 {
+  flex-basis: 15%;
+}
+.responsive-table .col-3 {
+  flex-basis: 20%;
+}
+.responsive-table .col-4 {
+  flex-basis: 20%;
+}
+.responsive-table .col-5 {
+  flex-basis: 10%;
+}
+.ilkom {
+  color: #50a65a;
+  font-weight: bold;
+}
+.rpl {
+  color: #619bc2;
+  font-weight: bold;
+}
+.praktikum {
+  color: #e0a863;
+  font-weight: bold;
+}
+.square.ilkom{
+  height: 20px;
+  width: 20px;
+  background-color: #50a65a;
+  margin: 0 5px;
+}
+.square.rpl{
+  height: 20px;
+  width: 20px;
+  background-color: #619bc2;
+  margin: 0 5px;
+}
+.square.praktikum{
+  height: 20px;
+  width: 20px;
+  background-color: #e0a863;
+  margin: 0 5px;
+}
+.warna {
+  display: flex;
+  margin: 15px 15px 15px 0;
+  font-weight: bold;
+}
+footer {
+  margin: 20px;
+  text-align: center;
+}
+.hari {
+  background-color: white;
+  border-radius: 10px;
+}
+.hari h2 {
+  margin-top: 50px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+@media (max-width: 500px) {
+  .responsive-table .table-header {
+    display: none;
+  }
+  .responsive-table li {
+    display: block;
+  }
+  .responsive-table .col {
+    flex-basis: 100%;
+  }
+  .responsive-table .col {
+    display: flex;
+    padding: 10px 0;
+  }
+  .responsive-table .col:before {
+    color: #6C7A89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 40%;
+    text-align: right;
+  }
+
+  .ilkom {
+    color: #50a65a;
+    font-weight: bold;
+  }
+  .rpl {
+    color: #619bc2;
+    font-weight: bold;
+  }
+  .praktikum {
+    color: #e0a863;
+    font-weight: bold;
+  }
+}
