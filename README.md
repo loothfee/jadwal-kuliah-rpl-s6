@@ -1,6 +1,8 @@
 # Jadwal Kuliah Semester 6 Konsentrasi RPL Kelas Informatika B 2019
+
+## Link Jadwal Kuliah
 ```
-https://jadwal-kuliah-rpl-s6.web.app/
+[here](https://jadwal-kuliah-rpl-s6.web.app/)
 ```
 <!-- 
 ## Project setup Backend & Frontend
