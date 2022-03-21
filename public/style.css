@@ -84,13 +84,13 @@ h2 small {
   height: 20px;
   width: 20px;
   background-color: #619bc2;
-  margin: 0 5px;
+  margin: 5px 5px;
 }
 .square.praktikum{
   height: 20px;
   width: 20px;
   background-color: #e0a863;
-  margin: 0 5px;
+  margin: 5px 5px;
 }
 .warna {
   display: flex;
